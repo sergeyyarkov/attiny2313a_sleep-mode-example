@@ -1,0 +1,38 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATtiny2313A"</DEVICE>
+ <WORKING_DIR>D:\Apps\attiny2313a_sleep-mode-example.X</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Users/Сергей/.mchp_packs/Microchip/ATtiny_DFP/3.0.151/avrasm/inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>firmware.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Users/Сергей/.mchp_packs/Microchip/ATtiny_DFP/3.0.151/avrasm/inc\tn2313Adef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>dist/default/production/attiny2313a_sleep-mode-example.X.production.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>dist/default/production/attiny2313a_sleep-mode-example.X.production.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>dist/default/production/attiny2313a_sleep-mode-example.X.production.map</FILE>
+  <FILE>dist/default/production/attiny2313a_sleep-mode-example.X.production.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET_vect><FILE>firmware.asm</FILE><LINE>54</LINE></RESET_vect>
+  <WDT_vect><FILE>firmware.asm</FILE><LINE>46</LINE></WDT_vect>
+  <toggle_led><FILE>firmware.asm</FILE><LINE>101</LINE></toggle_led>
+  <init_ports><FILE>firmware.asm</FILE><LINE>89</LINE></init_ports>
+  <init_sm><FILE>firmware.asm</FILE><LINE>67</LINE></init_sm>
+  <init_wdt><FILE>firmware.asm</FILE><LINE>74</LINE></init_wdt>
+  <loop><FILE>firmware.asm</FILE><LINE>97</LINE></loop>
+  <wdt_sleep_check><FILE>firmware.asm</FILE><LINE>108</LINE></wdt_sleep_check>
+  <delay_100ms><FILE>firmware.asm</FILE><LINE>145</LINE></delay_100ms>
+  <_mcu_sleep><FILE>firmware.asm</FILE><LINE>117</LINE></_mcu_sleep>
+  <_sleep_exit><FILE>firmware.asm</FILE><LINE>126</LINE></_sleep_exit>
+  <WDT_off><FILE>firmware.asm</FILE><LINE>130</LINE></WDT_off>
+  <_loop_d_100ms><FILE>firmware.asm</FILE><LINE>149</LINE></_loop_d_100ms>
+ </LABELS>
+</ASSEMBLER_INFO>
